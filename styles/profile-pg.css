@@ -46,6 +46,7 @@ a {
   width: 4in;
   padding: 10mm;
   justify-content: space-around;
+  position: relative;
 }
 
 .main-content-container > .hover-bckgrd > .left-container > .icon {
@@ -54,10 +55,20 @@ a {
 
 .main-content-container > .hover-bckgrd > .right-container {
   background-color: white;
-  padding: 35px;
+  padding: 35px 59px 35px 35px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  position: relative;
+}
+
+.main-content-container > .hover-bckgrd > .item-container img {
+  height: 6.5in;
+  width: 5.5in;
+  position: absolute;
+  z-index: 5;
+  top: 3in;
+  left: 6.5cm;
 }
 
 .main-content-container > .hover-bckgrd > .right-container > .nav {
