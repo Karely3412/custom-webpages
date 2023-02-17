@@ -1,0 +1,33 @@
+@media (max-width: 390px) {
+  .main-content-container {
+    background-color: rgb(243 172 20);
+    height: 844px;
+    width: 390px;
+    display: flex;
+  }
+
+  .main-content-container > .hover-bckgrd {
+    height: 844px;
+    width: 390px;
+    display: flex;
+  }
+
+  .main-content-container > .hover-bckgrd > .left-container {
+    display: flex;
+    flex-direction: row;
+    width: 9mm;
+    padding: 10mm;
+    justify-content: space-around;
+    position: relative;
+  }
+
+  .main-content-container
+    > .hover-bckgrd
+    > .left-container
+    > .icon:first-child {
+    margin-right: 9px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+}
